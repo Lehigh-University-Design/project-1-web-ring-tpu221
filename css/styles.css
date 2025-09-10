@@ -9,3 +9,13 @@ h1{
  a {
             color: rgb(240, 154, 56);
         }
+.media-center {
+    text-align: center;
+}
+
+.bordered {
+    border: 3px solid #333;
+    border-radius: 8px;
+    margin: 10px 0;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
