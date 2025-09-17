@@ -13,9 +13,23 @@ h1{
     text-align: center;
 }
 
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 24px;
+    justify-items: center;
+    margin-bottom: 20px;
+}
+
 .bordered {
     border: 3px solid #333;
-    border-radius: 8px;
-    margin: 10px 0;
-    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.12);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.hover-effect:hover {
+    transform: scale(1.08) rotate(-2deg);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+    border-color: #0078D7;
 }
