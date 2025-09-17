@@ -49,3 +49,54 @@ a img:hover {
   opacity: 0.8;
   cursor: pointer;
 }
+.centered-text {
+    text-align: center;
+    font-size: 1.4em;
+    margin: 20px 0;
+    font-weight: 500;
+}
+.navbar {
+    background-color: #ad5959;
+    padding: 10px 0;
+}
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.navbar li {
+    display: inline;
+}
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 6px 12px;
+    border-radius: 4px;
+    transition: background 0.2s;
+}
+.navbar a:hover {
+    background: #0078D7;
+}
+
+.photo-center {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.bordered-photo {
+    border: 4px solid #0078D7;
+    border-radius: 12px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.12);
+}
+
+.caption {
+    text-align: center;
+    font-size: 1em;
+    color: #f8f8f8;
+    margin-top: 8px;
+}
